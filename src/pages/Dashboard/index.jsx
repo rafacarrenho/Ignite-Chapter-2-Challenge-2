@@ -1,4 +1,4 @@
-import { Component, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Header } from "../../components/Header";
 import api from "../../services/api";
@@ -12,6 +12,12 @@ export const Dashboard = () => {
   const [editingFood, setEditingFood] = useState({});
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
+
+  useEffect(() => {
+    api.get("/foods").then((response) => {
+      setFoods(response.data);
+    });
+  }, []);
 
   const handleAddFood = async (food) => {
     try {

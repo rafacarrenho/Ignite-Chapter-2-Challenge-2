@@ -15,22 +15,6 @@
       "description": "asd",
       "available": true,
       "id": 2
-    },
-    {
-      "image": "qualquer URL é nois",
-      "name": "Portuguesa",
-      "price": "20.50",
-      "description": "Delicia!",
-      "available": true,
-      "id": 3
-    },
-    {
-      "image": "",
-      "name": "",
-      "price": "",
-      "description": "",
-      "available": true,
-      "id": 4
     }
   ]
 }
