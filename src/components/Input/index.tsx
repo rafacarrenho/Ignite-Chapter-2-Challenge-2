@@ -4,6 +4,7 @@ import { Container } from "./styles";
 
 type InputProps = {
   name: string;
+  placeholder: string;
 };
 
 export const Input = ({ name, ...rest }: InputProps) => {

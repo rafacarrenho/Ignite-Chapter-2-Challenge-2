@@ -5,7 +5,7 @@ import { Container } from "./styles";
 import api from "../../services/api";
 
 type FoodType = {
-  id: string;
+  id: number;
   image: string;
   name: string;
   description: string;
@@ -14,7 +14,7 @@ type FoodType = {
 
 type FoodProps = {
   food: FoodType;
-  handleDelete: (id: string) => void;
+  handleDelete: (id: number) => void;
   handleEditFood: (food: FoodType) => void;
 };
 

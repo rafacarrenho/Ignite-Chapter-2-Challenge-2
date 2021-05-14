@@ -1,18 +1,18 @@
 {
   "foods": [
     {
-      "image": "123",
-      "name": "123",
-      "price": "222222",
-      "description": "11",
+      "image": "https://st.depositphotos.com/1900347/4146/i/600/depositphotos_41466555-stock-photo-image-of-slice-of-pizza.jpg",
+      "name": "Moda Italiana",
+      "price": "80.50",
+      "description": "Deliciosa para sua noite de domingo",
       "available": true,
       "id": 1
     },
     {
-      "image": "asd",
-      "name": "asd",
-      "price": "asd",
-      "description": "asd",
+      "image": "https://pizzariameurancho.com.br/wp-content/uploads/2016/06/pizza-portuguesa_min.jpg",
+      "name": "Portuguesa",
+      "price": "70",
+      "description": "Hummmmmm",
       "available": true,
       "id": 2
     }
